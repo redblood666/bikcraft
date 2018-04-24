@@ -244,6 +244,10 @@ img {
 	text-align: center;
 }
 
+.produtos_lista a {
+	color: #000000;
+}
+
 .produtos_lista li img {
 	margin: 0 auto;
 }
@@ -564,6 +568,10 @@ img {
 
 	.header_menu ul li a.menu_ativo {
 		border-color: #fff;
+	}
+
+	.header_menu ul li.current_page_item a{
+		color: #fff !important;
 	}
 
 	/*Introducao*/
