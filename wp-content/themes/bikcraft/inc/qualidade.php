@@ -29,7 +29,7 @@ $sobre = get_page_by_title('sobre');
 		?>
         <div class="call">
             <p><?php the_field('chamada_qualidade',$sobre);?></p>
-            <a href="/sobre" class="btn btn-preto">Sobre</a>
+            <a href="<?php bloginfo('url');?>/sobre" class="btn btn-preto">Sobre</a>
         </div>
 		<?php
 	}
